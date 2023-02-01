@@ -17,7 +17,7 @@ const Translation: FC<Props> = ({
   return (
     <div className="grid mt-5  md:mt-12 ">
       <button
-        className="absolute top-2 left-5 text-white hidden md:block"
+        className="absolute top-4 left-5 text-white hidden md:block"
         onClick={() => {
           setResult("");
           setOption(undefined);
